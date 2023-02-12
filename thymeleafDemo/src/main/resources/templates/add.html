@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Page</title>
+    <link rel="stylesheet" th:href="@{/bootstrap.css}">
+</head>
+<body class="container">
+<h3>增加嘉宾</h3>
+<br>
+<form th:action="@{/guest/add}" method="post" class="form-horizontal">
+    <div class="container">
+        <label class="col-sm-2 form-label">名字：</label>
+        <div class="col col-sm-8">
+            <input type="text" id="name" name="name" class="form-control">
+        </div>
+    </div>
+    <div class="container">
+        <label class="col-sm-2 control-label">角色：</label>
+        <div class="col-sm-8">
+            <input type="text" id="role" name="role" class="form-control">
+        </div>
+    </div>
+    <div class="container">
+        <div class="offset-2 col-sm-10">
+            <input type="submit" value="提交" class="btn btn-info">
+        </div>
+    </div>
+</form>
+</body>
+</html>

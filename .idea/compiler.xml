@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="thymeleafDemo" />
+        <module name="springbootDemo" />
+        <module name="SpringBootRESTful" />
+        <module name="springbootJpa" />
+        <module name="springBootMybatis" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="springbootDemo" target="8" />
+      <module name="springbootJpa" target="1.8" />
+      <module name="springBootMybatis" target="1.8" />
+      <module name="SpringBootRESTful" target="8" />
+      <module name="thymeleafDemo" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBootRESTful" options="-parameters" />
+      <module name="springBootMybatis" options="-parameters" />
+      <module name="springbootDemo" options="-parameters" />
+      <module name="springbootJpa" options="-parameters" />
+      <module name="thymeleafDemo" options="-parameters" />
+    </option>
+  </component>
+</project>
