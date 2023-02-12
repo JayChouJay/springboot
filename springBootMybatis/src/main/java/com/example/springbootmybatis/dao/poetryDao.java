@@ -1,5 +1,5 @@
 package com.example.springbootmybatis.dao;
 
-public class poetryDao {
+public class poetryDao implements {
     private Long id;
 }
