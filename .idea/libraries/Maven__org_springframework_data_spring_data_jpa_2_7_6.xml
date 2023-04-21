@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.springframework.data:spring-data-jpa:2.7.6">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/data/spring-data-jpa/2.7.6/spring-data-jpa-2.7.6.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/联化/Lianhetech Documents/01 共享文件夹/02 开发相关/Java/maven/repository/org/springframework/data/spring-data-jpa/2.7.6/spring-data-jpa-2.7.6.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/data/spring-data-jpa/2.7.6/spring-data-jpa-2.7.6-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/联化/Lianhetech Documents/01 共享文件夹/02 开发相关/Java/maven/repository/org/springframework/data/spring-data-jpa/2.7.6/spring-data-jpa-2.7.6-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../maven/repository/org/springframework/data/spring-data-jpa/2.7.6/spring-data-jpa-2.7.6-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/联化/Lianhetech Documents/01 共享文件夹/02 开发相关/Java/maven/repository/org/springframework/data/spring-data-jpa/2.7.6/spring-data-jpa-2.7.6-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

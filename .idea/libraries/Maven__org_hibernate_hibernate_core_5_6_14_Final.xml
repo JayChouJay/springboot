@@ -1,13 +1,13 @@
 <component name="libraryTable">
   <library name="Maven: org.hibernate:hibernate-core:5.6.14.Final">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../maven/repository/org/hibernate/hibernate-core/5.6.14.Final/hibernate-core-5.6.14.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/联化/Lianhetech Documents/01 共享文件夹/02 开发相关/Java/maven/repository/org/hibernate/hibernate-core/5.6.14.Final/hibernate-core-5.6.14.Final.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$PROJECT_DIR$/../../maven/repository/org/hibernate/hibernate-core/5.6.14.Final/hibernate-core-5.6.14.Final-javadoc.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/联化/Lianhetech Documents/01 共享文件夹/02 开发相关/Java/maven/repository/org/hibernate/hibernate-core/5.6.14.Final/hibernate-core-5.6.14.Final-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../../maven/repository/org/hibernate/hibernate-core/5.6.14.Final/hibernate-core-5.6.14.Final-sources.jar!/" />
+      <root url="jar://$USER_HOME$/Desktop/联化/Lianhetech Documents/01 共享文件夹/02 开发相关/Java/maven/repository/org/hibernate/hibernate-core/5.6.14.Final/hibernate-core-5.6.14.Final-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

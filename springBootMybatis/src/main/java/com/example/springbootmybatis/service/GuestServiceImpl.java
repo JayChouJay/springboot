@@ -11,8 +11,10 @@ import java.util.List;
 public class GuestServiceImpl implements GuestService{
     @Autowired
     private UserMapper mapper;
+//    private UserMapper mapper;
     @Override
     public List<User> list() {
-        return mapper.getUsers();
+        return mapper.selectAll();
+//        return mapper.getUsers();
     }
 }
