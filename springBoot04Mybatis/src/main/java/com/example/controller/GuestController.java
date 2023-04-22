@@ -1,7 +1,7 @@
-package com.example.springbootmybatis.controller;
+package com.example.controller;
 
-import com.example.springbootmybatis.bean.User;
-import com.example.springbootmybatis.service.GuestService;
+import com.example.domain.User;
+import com.example.service.GuestService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

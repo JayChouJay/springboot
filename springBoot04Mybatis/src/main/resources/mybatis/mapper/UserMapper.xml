@@ -19,8 +19,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.example.springbootmybatis.mapper.UserMapper">
-    <select id="getUsers" resultType="com.example.springbootmybatis.bean.User">
+<mapper namespace="com.example.mapper.UserMapper">
+    <select id="getUsers" resultType="com.example.domain.User">
         select *
         from user
     </select>

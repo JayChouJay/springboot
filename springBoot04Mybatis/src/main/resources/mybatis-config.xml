@@ -21,7 +21,8 @@
         "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <typeAliases>
-        <package name="com.example.springbootmybatis.bean"/>
+        <!--本质上是对包内元素起别名，说不定能提高效率-->
+        <package name="com.example.domain"/>
     </typeAliases>
     <mappers>
         <mapper resource="mybatis/mapper/UserMapper.xml"/>

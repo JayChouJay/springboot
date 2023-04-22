@@ -22,6 +22,7 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-starter-test/mybatis-spring-boot-starter-test.iml" filepath="$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-starter-test/mybatis-spring-boot-starter-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-test-autoconfigure/mybatis-spring-boot-test-autoconfigure.iml" filepath="$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-test-autoconfigure/mybatis-spring-boot-test-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/springBootMybatis/springBoot04Mybatis.iml" filepath="$PROJECT_DIR$/springBootMybatis/springBoot04Mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot04Mybatis/springBootMybatis.iml" filepath="$PROJECT_DIR$/springBoot04Mybatis/springBootMybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot01Demo/springboot01Demo.iml" filepath="$PROJECT_DIR$/springboot01Demo/springboot01Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot02Configuration/springboot02Configuration.iml" filepath="$PROJECT_DIR$/springboot02Configuration/springboot02Configuration.iml" />

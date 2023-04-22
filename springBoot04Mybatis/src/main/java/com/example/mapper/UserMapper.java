@@ -1,7 +1,8 @@
-package com.example.springbootmybatis.mapper;
+package com.example.mapper;
 
 
-import com.example.springbootmybatis.bean.User;
+import com.example.domain.User;
+import org.springframework.stereotype.Repository;
 import tk.mybatis.mapper.common.Mapper;
 
 

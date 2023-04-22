@@ -1,15 +1,15 @@
-package com.example.springbootmybatis;
+package com.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import tk.mybatis.spring.annotation.MapperScan;
 
 @SpringBootApplication
-@MapperScan("com.example.springbootmybatis.mapper")
-public class SpringBootMybatisApplication {
+@MapperScan("com.example.mapper")
+public class MybatisApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringBootMybatisApplication.class, args);
+        SpringApplication.run(MybatisApplication.class, args);
     }
 
 }

@@ -1,4 +1,4 @@
-package com.example.springbootmybatis.bean;
+package com.example.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
