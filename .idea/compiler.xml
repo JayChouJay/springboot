@@ -8,27 +8,31 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-spring-boot-sample-freemarker" />
-        <module name="thymeleafDemo" />
-        <module name="springboot04mybatisplugin" />
+        <module name="springboot03thyemleaf-crud" />
         <module name="mybatis-spring-boot-sample-freemarker-legacy" />
-        <module name="mybatis-spring-boot-sample-groovy" />
-        <module name="mybatis-spring-boot-sample-kotlin" />
+        <module name="springBoot04Mybatis" />
         <module name="mybatis-spring-boot-starter" />
         <module name="mybatis-spring-boot-sample-velocity" />
-        <module name="mybatis-spring-boot-test-autoconfigure" />
         <module name="mybatis-spring-boot-sample-war" />
-        <module name="mybatis-spring-boot-starter-test" />
         <module name="mybatis-spring-boot-sample-xml" />
         <module name="mybatis-spring-boot-sample-web" />
+        <module name="SpringBoot03tRESTful" />
+        <module name="mybatis-spring-boot-sample-velocity-legacy" />
+        <module name="springboot01Demo" />
+        <module name="SpringBootRESTful" />
+        <module name="springboot02Configuration" />
+        <module name="mybatis-spring-boot-autoconfigure" />
+        <module name="springboot03thyemleafcrud" />
+        <module name="springboot04mybatisplugin" />
+        <module name="mybatis-spring-boot-sample-groovy" />
+        <module name="mybatis-spring-boot-sample-kotlin" />
+        <module name="mybatis-spring-boot-test-autoconfigure" />
+        <module name="springboot03template" />
+        <module name="springboot04Jpa" />
+        <module name="mybatis-spring-boot-starter-test" />
         <module name="mybatis-spring-boot-sample-annotation" />
         <module name="springbootJpa" />
-        <module name="springBootMybatis" />
-        <module name="mybatis-spring-boot-sample-velocity-legacy" />
-        <module name="SpringBootRESTful" />
-        <module name="springboot01Demo" />
-        <module name="springboot02Configuration" />
         <module name="mybatis-spring-boot-sample-thymeleaf" />
-        <module name="mybatis-spring-boot-autoconfigure" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,15 +55,21 @@
       <module name="mybatis-spring-boot-test-autoconfigure" target="16" />
       <module name="springboot01Demo" target="8" />
       <module name="springboot02Configuration" target="8" />
+      <module name="springboot03template" target="8" />
+      <module name="springboot03thyemleaf-crud" target="8" />
+      <module name="springboot03thyemleafcrud" target="8" />
+      <module name="SpringBoot03tRESTful" target="8" />
+      <module name="springboot04Jpa" target="1.8" />
+      <module name="springBoot04Mybatis" target="1.8" />
       <module name="springboot04mybatisplugin" target="8" />
       <module name="springbootJpa" target="1.8" />
-      <module name="springBootMybatis" target="1.8" />
       <module name="SpringBootRESTful" target="8" />
       <module name="thymeleafDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="SpringBoot03tRESTful" options="-parameters" />
       <module name="SpringBootRESTful" options="-parameters" />
       <module name="mybatis-spring-boot" options="" />
       <module name="mybatis-spring-boot-autoconfigure" options="-parameters" />
@@ -74,12 +84,17 @@
       <module name="mybatis-spring-boot-sample-war" options="-parameters" />
       <module name="mybatis-spring-boot-sample-web" options="-parameters" />
       <module name="mybatis-spring-boot-sample-xml" options="-parameters" />
+      <module name="mybatis-spring-boot-samples" options="" />
       <module name="mybatis-spring-boot-starter" options="-parameters" />
       <module name="mybatis-spring-boot-starter-test" options="-parameters" />
       <module name="mybatis-spring-boot-test-autoconfigure" options="-parameters" />
-      <module name="springBootMybatis" options="-parameters" />
+      <module name="springBoot04Mybatis" options="-parameters" />
       <module name="springboot01Demo" options="-parameters" />
       <module name="springboot02Configuration" options="-parameters" />
+      <module name="springboot03template" options="-parameters" />
+      <module name="springboot03thyemleaf-crud" options="-parameters" />
+      <module name="springboot03thyemleafcrud" options="-parameters" />
+      <module name="springboot04Jpa" options="-parameters" />
       <module name="springboot04mybatisplugin" options="-parameters" />
       <module name="springbootJpa" options="-parameters" />
       <module name="thymeleafDemo" options="-parameters" />

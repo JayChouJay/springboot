@@ -8,7 +8,6 @@
       <list>
         <option value="$PROJECT_DIR$/springbootDemo/pom.xml" />
         <option value="$PROJECT_DIR$/springbootJpa/pom.xml" />
-        <option value="$PROJECT_DIR$/thymeleafDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SpringBootRESTful/pom.xml" />
         <option value="$PROJECT_DIR$/springBootMybatis/pom.xml" />
         <option value="$PROJECT_DIR$/springboot04mybatisplugin/pom.xml" />
@@ -16,6 +15,12 @@
         <option value="$PROJECT_DIR$/spring-boot-starter/pom.xml" />
         <option value="$PROJECT_DIR$/springboot01Demo/pom.xml" />
         <option value="$PROJECT_DIR$/springboot02Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot03template/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot031thyemleafDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot03thyemleaf-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot03tRESTful/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot04Jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot04Mybatis/pom.xml" />
       </list>
     </option>
   </component>

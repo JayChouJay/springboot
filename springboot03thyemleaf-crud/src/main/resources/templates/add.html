@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Page</title>
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}">
+</head>
+<!--整体样式：包裹在容器中 居中-->
+<body class="container">
+    <h3>增加嘉宾</h3>
+    <br>
+    <!--发送增加嘉宾请求-->
+    <form th:action="@{/guest/add}" method="post" class="form-horizontal">
+        <!--填写姓名-->
+        <!--div样式 包裹 居中-->
+        <div class="container">
+            <!--label样式：小字2 单行-->
+            <label class="col-sm-2 form-label">名字：</label>
+            <!--文本框样式：宽度8-->
+            <div class="col col-sm-8">
+                <input type="text" id="name" name="name" class="form-control">
+            </div>
+        </div>
+        <!--填写角色-->
+        <div class="container">
+            <label class="col-sm-2 control-label">角色：</label>
+            <!--文本框样式：宽度8-->
+            <div class="col-sm-8">
+                <input type="text" id="role" name="role" class="form-control">
+            </div>
+        </div>
+        <!--点击提交-->
+        <div class="container">
+            <!--框框样式：偏移量2 宽度10-->
+            <div class="offset-2 col-sm-10">
+                <!--提交按钮样式：按钮，警告按钮-->
+                <input type="submit" value="提交" class="btn btn-info">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

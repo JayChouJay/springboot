@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SpringBootRESTful/SpringBootRESTful.iml" filepath="$PROJECT_DIR$/SpringBootRESTful/SpringBootRESTful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBootRESTful/SpringBoot03tRESTful.iml" filepath="$PROJECT_DIR$/SpringBootRESTful/SpringBoot03tRESTful.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SpringBoot03tRESTful/SpringBootRESTful.iml" filepath="$PROJECT_DIR$/SpringBoot03tRESTful/SpringBootRESTful.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-autoconfigure/mybatis-spring-boot-autoconfigure.iml" filepath="$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-autoconfigure/mybatis-spring-boot-autoconfigure.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-annotation/mybatis-spring-boot-sample-annotation.iml" filepath="$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-samples/mybatis-spring-boot-sample-annotation/mybatis-spring-boot-sample-annotation.iml" />
@@ -20,13 +21,16 @@
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-starter/mybatis-spring-boot-starter.iml" filepath="$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-starter/mybatis-spring-boot-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-starter-test/mybatis-spring-boot-starter-test.iml" filepath="$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-starter-test/mybatis-spring-boot-starter-test.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-test-autoconfigure/mybatis-spring-boot-test-autoconfigure.iml" filepath="$PROJECT_DIR$/spring-boot-starter/mybatis-spring-boot-test-autoconfigure/mybatis-spring-boot-test-autoconfigure.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springBootMybatis/springBootMybatis.iml" filepath="$PROJECT_DIR$/springBootMybatis/springBootMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBootMybatis/springBoot04Mybatis.iml" filepath="$PROJECT_DIR$/springBootMybatis/springBoot04Mybatis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot.iml" filepath="$PROJECT_DIR$/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot01Demo/springboot01Demo.iml" filepath="$PROJECT_DIR$/springboot01Demo/springboot01Demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot02Configuration/springboot02Configuration.iml" filepath="$PROJECT_DIR$/springboot02Configuration/springboot02Configuration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot03template/springboot03template.iml" filepath="$PROJECT_DIR$/springboot03template/springboot03template.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot031thyemleafDemo/springboot03thyemleaf-crud.iml" filepath="$PROJECT_DIR$/springboot031thyemleafDemo/springboot03thyemleaf-crud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot03thyemleaf-crud/springboot03thyemleafcrud.iml" filepath="$PROJECT_DIR$/springboot03thyemleaf-crud/springboot03thyemleafcrud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springbootJpa/springboot04Jpa.iml" filepath="$PROJECT_DIR$/springbootJpa/springboot04Jpa.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot04mybatisplugin/springboot04mybatisplugin.iml" filepath="$PROJECT_DIR$/springboot04mybatisplugin/springboot04mybatisplugin.iml" />
-      <module fileurl="file://$PROJECT_DIR$/springbootJpa/springbootJpa.iml" filepath="$PROJECT_DIR$/springbootJpa/springbootJpa.iml" />
-      <module fileurl="file://$PROJECT_DIR$/thymeleafDemo/thymeleafDemo.iml" filepath="$PROJECT_DIR$/thymeleafDemo/thymeleafDemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot04Jpa/springbootJpa.iml" filepath="$PROJECT_DIR$/springboot04Jpa/springbootJpa.iml" />
     </modules>
   </component>
 </project>

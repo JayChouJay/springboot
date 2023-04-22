@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Thymeleaf</title>
+    </head>
+    <body>
+        <h2>第一部分:简单传值</h2>
+            <p th:text="${name}">name</p>
+        <h2>第二部分:解析标签</h2>
+            解析标签：<p th:text="${name2}">name</p>
+            不解析标签：<p th:utext="${name2}">name</p>
+        <h2>第三部分：传递对象</h2>
+            <p th:text="${restaurant.boss}">restaurant boss</p>
+            <p th:text="${restaurant.chef}">restaurant chef</p>
+
+        <h2>第四部分：选择变量表达式</h2>
+        <div th:object="${restaurant}">
+            <p>boss：<span th:text="*{boss}">boss</span>.</p>
+            <p>chef：<span th:text="*{chef}">chef</span>.</p>
+            原先的方式还可以用：<p>chef：<span th:text="${restaurant.chef}">chef</span>.</p>
+        </div>
+        <h2>第五部分：链接URL表达式</h2>
+        <a href="/welcome" th:href="@{/welcome}">welcome</a>
+        <h2>第六部分：消息表达式</h2>
+        <h4>介绍：获取messages.properties中的字符</h4>
+        <p th:text="#{something}">message</p>
+
+        <h2>第六部分：片段表达式</h2>
+        <h4>介绍：引入footer.html片段</h4>
+        <div th:insert="footer :: copy"></div>
+        <div th:replace="footer :: copy"></div>
+        <div th:include="footer :: copy"></div>
+        效果：
+<!--        <div><footer>&copy; 2019</footer></div>-->
+<!--        <footer>&copy; 2019</footer>-->
+<!--        <div>&copy; 2019</div>-->
+    </body>
+</html>

@@ -1,0 +1,45 @@
+server:
+  port: 8081
+
+#对象-包含数组
+food:
+  meat: 烤肉
+  rice: 拌饭
+  sauce:
+    - 咖喱
+    - 蜜汁
+    - 原味
+    - ${vegetables.greenpeper}
+#流式语法结构（不清晰不建议使用）
+vegetables: { potato: 土豆2, eggplant: 茄子, greenpeper: 青椒 }
+
+
+jasypt:
+  encryptor:
+    #设置盐分
+    password: 123456!@#
+
+info:
+  username: ENC(IV/nz+0LmTaFOan9l3rLcA==)
+  password: ENC(0pvg3cDStW1V30u6c3Ttfg==)
+
+#选择文档
+#多文档
+#不选下面不会生效，只有上面生效
+#选了之后上面+下面
+spring:
+  profiles:
+    active:
+---
+spring:
+  profiles: dev
+
+server:
+  port: 8090
+
+---
+spring:
+  profiles: prod
+
+server:
+  port: 8091
