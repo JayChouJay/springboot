@@ -8,32 +8,40 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-spring-boot-sample-freemarker" />
-        <module name="springboot03thyemleaf-crud" />
+        <module name="springboot-05-event-listener" />
         <module name="mybatis-spring-boot-sample-freemarker-legacy" />
-        <module name="springBoot04Mybatis" />
         <module name="mybatis-spring-boot-starter" />
         <module name="mybatis-spring-boot-sample-velocity" />
+        <module name="springboot-09-actuator" />
+        <module name="springboot-03-template" />
         <module name="mybatis-spring-boot-sample-war" />
-        <module name="mybatis-spring-boot-sample-xml" />
+        <module name="springboot-03-thyemleaf-crud" />
+        <module name="springboot-01-Demo" />
+        <module name="springboot-02-Configuration" />
         <module name="mybatis-spring-boot-sample-web" />
-        <module name="SpringBoot03tRESTful" />
+        <module name="mybatis-spring-boot-sample-xml" />
+        <module name="springboot-06-servlet" />
+        <module name="pagehelper-spring-boot-sample-annotation" />
         <module name="mybatis-spring-boot-sample-velocity-legacy" />
-        <module name="springBootMybatis" />
-        <module name="springboot01Demo" />
-        <module name="SpringBootRESTful" />
-        <module name="springboot02Configuration" />
         <module name="mybatis-spring-boot-autoconfigure" />
-        <module name="springboot03thyemleafcrud" />
-        <module name="springboot04mybatisplugin" />
+        <module name="pagehelper-spring-boot-sample-xml" />
+        <module name="pagehelper-spring-boot-autoconfigure" />
+        <module name="springboot-08-logging" />
         <module name="mybatis-spring-boot-sample-groovy" />
         <module name="mybatis-spring-boot-sample-kotlin" />
         <module name="mybatis-spring-boot-test-autoconfigure" />
-        <module name="springboot03template" />
-        <module name="springboot04Jpa" />
+        <module name="springBoot-04-Mybatis" />
+        <module name="springboot-09-cache" />
         <module name="mybatis-spring-boot-starter-test" />
         <module name="mybatis-spring-boot-sample-annotation" />
-        <module name="springbootJpa" />
+        <module name="springboot-04-mybatismoredatabase" />
+        <module name="springboot-04-mybatisplus" />
+        <module name="pagehelper-spring-boot-starter" />
+        <module name="springboot-07-errorAexception" />
+        <module name="springboot-08-swagger" />
+        <module name="SpringBoot-03-tRESTful" />
         <module name="mybatis-spring-boot-sample-thymeleaf" />
+        <module name="springboot-04-Jpa" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -54,25 +62,34 @@
       <module name="mybatis-spring-boot-starter" target="16" />
       <module name="mybatis-spring-boot-starter-test" target="16" />
       <module name="mybatis-spring-boot-test-autoconfigure" target="16" />
-      <module name="springboot01Demo" target="8" />
-      <module name="springboot02Configuration" target="8" />
-      <module name="springboot03template" target="8" />
-      <module name="springboot03thyemleaf-crud" target="8" />
-      <module name="springboot03thyemleafcrud" target="8" />
-      <module name="SpringBoot03tRESTful" target="8" />
-      <module name="springboot04Jpa" target="1.8" />
-      <module name="springBoot04Mybatis" target="1.8" />
-      <module name="springboot04mybatisplugin" target="8" />
-      <module name="springbootJpa" target="1.8" />
-      <module name="springBootMybatis" target="1.8" />
-      <module name="SpringBootRESTful" target="8" />
+      <module name="pagehelper-spring-boot" target="8" />
+      <module name="pagehelper-spring-boot-autoconfigure" target="8" />
+      <module name="pagehelper-spring-boot-sample-annotation" target="8" />
+      <module name="pagehelper-spring-boot-sample-xml" target="8" />
+      <module name="pagehelper-spring-boot-samples" target="8" />
+      <module name="pagehelper-spring-boot-starter" target="8" />
+      <module name="springboot-01-Demo" target="8" />
+      <module name="springboot-02-Configuration" target="8" />
+      <module name="springboot-03-template" target="8" />
+      <module name="springboot-03-thyemleaf-crud" target="8" />
+      <module name="SpringBoot-03-tRESTful" target="8" />
+      <module name="springboot-04-Jpa" target="1.8" />
+      <module name="springBoot-04-Mybatis" target="1.8" />
+      <module name="springboot-04-mybatismoredatabase" target="8" />
+      <module name="springboot-04-mybatisplus" target="8" />
+      <module name="springboot-05-event-listener" target="8" />
+      <module name="springboot-06-servlet" target="8" />
+      <module name="springboot-07-errorAexception" target="1.8" />
+      <module name="springboot-08-logging" target="8" />
+      <module name="springboot-08-swagger" target="8" />
+      <module name="springboot-09-actuator" target="8" />
+      <module name="springboot-09-cache" target="8" />
       <module name="thymeleafDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SpringBoot03tRESTful" options="-parameters" />
-      <module name="SpringBootRESTful" options="-parameters" />
+      <module name="SpringBoot-03-tRESTful" options="-parameters" />
       <module name="mybatis-spring-boot" options="" />
       <module name="mybatis-spring-boot-autoconfigure" options="-parameters" />
       <module name="mybatis-spring-boot-sample-annotation" options="-parameters" />
@@ -90,16 +107,21 @@
       <module name="mybatis-spring-boot-starter" options="-parameters" />
       <module name="mybatis-spring-boot-starter-test" options="-parameters" />
       <module name="mybatis-spring-boot-test-autoconfigure" options="-parameters" />
-      <module name="springBoot04Mybatis" options="-parameters" />
-      <module name="springBootMybatis" options="-parameters" />
-      <module name="springboot01Demo" options="-parameters" />
-      <module name="springboot02Configuration" options="-parameters" />
-      <module name="springboot03template" options="-parameters" />
-      <module name="springboot03thyemleaf-crud" options="-parameters" />
-      <module name="springboot03thyemleafcrud" options="-parameters" />
-      <module name="springboot04Jpa" options="-parameters" />
-      <module name="springboot04mybatisplugin" options="-parameters" />
-      <module name="springbootJpa" options="-parameters" />
+      <module name="springBoot-04-Mybatis" options="-parameters" />
+      <module name="springboot-01-Demo" options="-parameters" />
+      <module name="springboot-02-Configuration" options="-parameters" />
+      <module name="springboot-03-template" options="-parameters" />
+      <module name="springboot-03-thyemleaf-crud" options="-parameters" />
+      <module name="springboot-04-Jpa" options="-parameters" />
+      <module name="springboot-04-mybatismoredatabase" options="-parameters" />
+      <module name="springboot-04-mybatisplus" options="-parameters" />
+      <module name="springboot-05-event-listener" options="-parameters" />
+      <module name="springboot-06-servlet" options="-parameters" />
+      <module name="springboot-07-errorAexception" options="-parameters" />
+      <module name="springboot-08-logging" options="-parameters" />
+      <module name="springboot-08-swagger" options="-parameters" />
+      <module name="springboot-09-actuator" options="-parameters" />
+      <module name="springboot-09-cache" options="-parameters" />
       <module name="thymeleafDemo" options="-parameters" />
     </option>
   </component>

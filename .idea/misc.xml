@@ -21,6 +21,25 @@
         <option value="$PROJECT_DIR$/SpringBoot03tRESTful/pom.xml" />
         <option value="$PROJECT_DIR$/springboot04Jpa/pom.xml" />
         <option value="$PROJECT_DIR$/springBoot04Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot04mybatisplus/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot04mybatismoredatabase/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-06-servlet/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-05-event-listener/pom.xml" />
+        <option value="$PROJECT_DIR$/pagehelper-spring-boot/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-07-errorAexception/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-logging/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-08-swagger/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-09-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-01-Demo/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-02-Configuration/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-03-template/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-03-thyemleaf-crud/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringBoot-03-tRESTful/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-04-Jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/springBoot-04-Mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-04-mybatismoredatabase/pom.xml" />
+        <option value="$PROJECT_DIR$/springboot-04-mybatisplus/pom.xml" />
       </list>
     </option>
   </component>

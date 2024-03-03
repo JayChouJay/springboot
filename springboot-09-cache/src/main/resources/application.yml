@@ -1,0 +1,9 @@
+#配置默认缓存管理器
+spring:
+  cache:
+    type: simple
+#打印com.example下的日志
+logging:
+  level:
+    com:
+      example: trace

@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    db1:
+      jdbc-url: jdbc:mysql://localhost:3306/springboot
+      username: root
+      password:
+    db2:
+      jdbc-url: jdbc:mysql://localhost:3306/util
+      username: root
+      password:
+
+#mybatis:
+#  #声明Sql位置
+#  mapper-locations: classpath*:/mapper/*.xml
+  #本质上是对包内元素起别名，说不定能提高效率
+  #type-aliases-package: com.example.springmybatis.domain
